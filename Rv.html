@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Profissões do Amanhã</title>
+</head>
+<body>
+
+    
+        /* Essa parte deve ter em todas as páginas */
+    <div class="caixa-imagem">
+       <img src="img/images.capa.jfif" alt="">
+       <div class="mascara"></div>   
+    </div>
+
+    <header class="header">
+        <section>
+            <a href="#">
+                <img src="img/Tecnologia-removebg-preview.png" alt="logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="tecnologias.html">Profissões</a>
+                <a href="profissoes.html">Sobre</a>
+                <a href="#" onclick="mostrarModal()">Endereço</a>
+            </nav>
+        </section>
+    </header>
+/*Até aqui Apenas*/
+        <div class="modal">
+            <h3 class="titulo"><span>Nosso</span> Endereço</h3>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60192.52168229662!2d-42.626642778320324!3d-19.454161000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xafffd8218e59c1%3A0x2157de8f866b00f3!2sUNINTER%20%7C%20Ipatinga%20-%20MG!5e0!3m2!1spt-BR!2sbr!4v1791137746584!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+
+        <div class="mascara-modal" onclick="esconderModal()"></div>
+
+        <script src="scripts.js"></script>
+
+        <section class="caixa-sobre">
+            <div class="sobre-container">
+                <div class="sobre-imagem">
+                    <img src="img/rv.jfif" alt="SobreNos" class="ia">
+                </div>
+                
+                
+                <div class="sobre-texto">
+                    <h3>Designer de Experiências no Metaverso / Ambientes Imersivos</h3>
+                    <p>Este profissional atua como o arquiteto e o diretor de cena dos mundos puramente virtuais (VR). Ele não pensa em páginas web ou aplicativos em 2D, mas sim em espaços tridimensionais onde as pessoas entram usando óculos de realidade virtual.</p>
+                    <p>• O que faz no dia a dia: Projeta a jornada do usuário dentro de um espaço digital. Isso inclui desenhar a arquitetura de salas de reuniões corporativas virtuais, arenas de shows interativos, simuladores de treinamento cirúrgico ou lojas digitais de marcas famosas. Ele define como o usuário se move (teletransporte ou caminhada), como as leis da física funcionam ali e como os menus de interface (UI) flutuam no espaço de forma natural e confortável, evitando o enjoo digital (motion sickness).</p>
+                    <p>• Habilidades principais: Design de Experiência do Usuário 3D (Spatial UX/UI), modelagem tridimensional (Blender, Maya), psicologia comportamental e familiaridade com motores gráficos.</p>
+                    <p>• Áreas de origem: Arquitetos de interiores, designers de jogos (Game Designers), designers de interface tradicionais (UX/UI) e cenógrafos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="caixa-sobre">
+            <div class="sobre-container">
+                <div class="sobre-imagem">
+                    <img src="img/ra.jfif" alt="SobreNos" class="ia">
+                </div>
+                
+                
+                <div class="sobre-texto">
+                    <h3>Desenvolvedor de Soluções de AR para Varejo e Indústria</h3>
+                    <p>Diferente da realidade virtual (que cria um mundo novo), a realidade aumentada insere elementos digitais no mundo real. O desenvolvedor de AR usa câmeras de celulares, tablets ou óculos inteligentes (como o Apple Vision Pro ou Meta Quest) para sobrepor informações úteis no campo de visão do usuário.</p>
+                    <p>• O que faz no dia a dia: Escreve o código que permite a interação entre os mundos físico e digital. Na indústria, ele cria sistemas para engenheiros de manutenção (onde o funcionário olha para uma máquina complexa e óculos de AR exibem o passo a passo flutuante do conserto e quais parafusos girar). No varejo, ele cria o software que permite ao cliente apontar a câmera do celular para a sala de casa e ver o tamanho exato de um sofá antes de comprar, ou experimentar maquiagens e óculos virtualmente.</p>
+                    <p>• Habilidades principais: Programação avançada (C#, C++), domínio de motores de jogos (Unity ou Unreal Engine), uso de ferramentas de rastreamento e mapeamento espacial (ARKit da Apple, ARCore do Google, Vuforia) e otimização de performance móvel.</p>
+                    <p>• Áreas de origem: Desenvolvedores de aplicativos móveis (iOS/Android), programadores de jogos e engenheiros de software tradicionais.</p>
+                </div>
+            </div>
+        </section>
+          <footer class="rodape">
+    <h5>
+      <b>©2026 Poibiliades de Profissões</b>
+    </h5>
+  </footer>
+</body>
+</html>

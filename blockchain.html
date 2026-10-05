@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Profissões do Amanhã</title>
+</head>
+<body>
+
+    
+        /* Essa parte deve ter em todas as páginas */
+    <div class="caixa-imagem">
+       <img src="img/images.capa.jfif" alt="">
+       <div class="mascara"></div>   
+    </div>
+
+    <header class="header">
+        <section>
+            <a href="#">
+                <img src="img/Tecnologia-removebg-preview.png" alt="logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="tecnologias.html">Profissões</a>
+                <a href="profissoes.html">Sobre</a>
+                <a href="#" onclick="mostrarModal()">Endereço</a>
+            </nav>
+        </section>
+    </header>
+/*Até aqui Apenas*/
+        <div class="modal">
+            <h3 class="titulo"><span>Nosso</span> Endereço</h3>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60192.52168229662!2d-42.626642778320324!3d-19.454161000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xafffd8218e59c1%3A0x2157de8f866b00f3!2sUNINTER%20%7C%20Ipatinga%20-%20MG!5e0!3m2!1spt-BR!2sbr!4v1791137746584!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+
+        <div class="mascara-modal" onclick="esconderModal()"></div>
+
+        <script src="scripts.js"></script>
+
+<section class="caixa-sobre">
+            <div class="sobre-container">
+                <div class="sobre-imagem">
+                    <img src="img/blockchain.jfif" alt="SobreNos" class="ia">
+                </div>
+                
+                
+                <div class="sobre-texto">
+                    <h3>Engenheiro de Contratos Inteligentes</h3>
+                    <p>Os contratos inteligentes são linhas de código autoexecutáveis armazenadas em um blockchain. Eles eliminam a necessidade de intermediários (como cartórios ou bancos) porque executam os termos de um acordo automaticamente quando as condições pré-definidas são cumpridas.</p>
+                    <p>• O que faz no dia a dia: Escreve, testa e implanta códigos matemáticos ultra seguros que governam transações financeiras, transferências de propriedade ou regras de governança. Como o código do blockchain é imutável (não pode ser alterado após publicado), a responsabilidade é gigante: um erro de digitação pode resultar na perda de milhões de dólares ou no travamento de sistemas inteiros. O trabalho envolve testes exaustivos e auditoria de código.</p>
+                    <p>• Habilidades principais: Domínio de linguagens de programação específicas para blockchain (como Solidity para a rede Ethereum, Rust para Solana ou Move), forte base em criptografia, lógica matemática e segurança cibernética.</p>
+                    <p>• Áreas de origem: Desenvolvedores de software de back-end, engenheiros de segurança da informação e entusiastas de matemática computacional.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="caixa-sobre">
+            <div class="sobre-container">
+                <div class="sobre-imagem">
+                    <img src="img/arquiteto.jfif" alt="SobreNos" class="ia">
+                </div>
+                
+                
+                <div class="sobre-texto">
+                    <h3>Arquiteto de Soluções Web3</h3>
+                    <p>Enquanto o Engenheiro de Contratos Inteligentes foca no código de segurança pura, o Arquiteto de Soluções Web3 olha para a imagem macro. Ele é o responsável por desenhar a estratégia de como uma empresa tradicional ou uma startup vai integrar a tecnologia blockchain ao seu modelo de negócios.</p>
+                    <p>• O que faz no dia a dia: Projeta a estrutura técnica completa de ecossistemas descentralizados. Isso envolve decidir qual rede blockchain usar (pública, privada ou híbrida), estruturar o funcionamento de criptoativos e tokens de utilidade (utility tokens), e integrar carteiras digitais (como MetaMask) aos sistemas da empresa. Ele também projeta soluções de identidade digital descentralizada e sistemas de rastreabilidade (como cadeias de suprimentos que usam blockchain para provar a origem sustentável de um produto).</p>
+                    <p>• Habilidades principais: Visão sistêmica de arquitetura de software, profundo conhecimento sobre os diferentes protocolos blockchain (Bitcoin, Ethereum, Hyperledger), economia de tokens (tokenomics), governança descentralizada (DAOs) e compliance regulatório.</p>
+                    <p>• Áreas de origem: Arquitetos de sistemas de TI tradicionais, gerentes de produtos de tecnologia (Product Managers) e consultores de inovação digital.</p>
+                </div>
+            </div>
+        </section>
+          <footer class="rodape">
+    <h5>
+      <b>©2026 Poibiliades de Profissões</b>
+    </h5>
+  </footer>
+</body>
+</html>

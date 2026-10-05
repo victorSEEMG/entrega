@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Profissões do Amanhã</title>
+</head>
+<body>
+
+    
+        /* Essa parte deve ter em todas as páginas */
+    <div class="caixa-imagem">
+       <img src="img/images.capa.jfif" alt="">
+       <div class="mascara"></div>   
+    </div>
+
+    <header class="header">
+        <section>
+            <a href="#">
+                <img src="img/Tecnologia-removebg-preview.png" alt="logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="tecnologias.html">Profissões</a>
+                <a href="profissoes.html">Sobre</a>
+                <a href="#" onclick="mostrarModal()">Endereço</a>
+            </nav>
+        </section>
+    </header>
+/*Até aqui Apenas*/
+        <div class="modal">
+            <h3 class="titulo"><span>Nosso</span> Endereço</h3>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60192.52168229662!2d-42.626642778320324!3d-19.454161000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xafffd8218e59c1%3A0x2157de8f866b00f3!2sUNINTER%20%7C%20Ipatinga%20-%20MG!5e0!3m2!1spt-BR!2sbr!4v1791137746584!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+
+        <div class="mascara-modal" onclick="esconderModal()"></div>
+
+        <script src="scripts.js"></script>
+
+<section class="caixa-sobre">
+            <div class="sobre-container">
+                <div class="sobre-imagem">
+                    <img src="img/edge.jfif" alt="SobreNos" class="ia">
+                </div>
+                
+                
+                <div class="sobre-texto">
+                    <h3>Arquiteto de Edge Computing</h3>
+                    <p>A nuvem tradicional centraliza tudo em servidores gigantescos (da Google, AWS ou Microsoft), mas enviar dados do mundo inteiro para um único lugar gera atrasos (latência). O Arquiteto de Edge Computing resolve isso aproximando o processamento do local onde o dado é gerado.</p>
+                    <p>• O que faz no dia a dia: Projeta sistemas onde os dados são processados no próprio dispositivo ou em pequenas centrais locais, enviando para a nuvem apenas o que for estritamente necessário. Isso é vital para carros autônomos (que não podem esperar a resposta de uma nuvem distante para frear) ou braços robóticos cirúrgicos.</p>
+                    <p>• Habilidades principais: Arquitetura de redes distribuídas, segurança da informação, microsserviços, protocolos de rede de baixa latência e plataformas de nuvem híbrida.</p>
+                    <p>• Áreas de origem: Engenheiros de redes, especialistas em infraestrutura de TI e arquitetos de nuvem tradicional.</p> 
+                </div>
+            </div>
+        </section>
+
+        <section class="caixa-sobre">
+            <div class="sobre-container">
+                <div class="sobre-imagem">
+                    <img src="img/loT.jfif" alt="SobreNos" class="ia">
+                </div>
+                
+                
+                <div class="sobre-texto">
+                    <h3>Desenvolvedor de IoT para Cidades Inteligentes</h3>
+                    <p>A Internet das Coisas (IoT) conecta objetos físicos à internet. Nas cidades inteligentes, esse profissional cria a infraestrutura que transforma postes de luz, bueiros, lixeiras e semáforos em dispositivos inteligentes conectados à nuvem.</p>
+                    <p>• O que faz no dia a dia: Desenvolve o software e integra os sensores urbanos instalados pela cidade. Ele cria sistemas para que as lixeiras avisem à central quando estão cheias (otimizando a rota dos caminhões), os semáforos se adaptem em tempo real ao fluxo do trânsito e sensores ambientais meçam a qualidade do ar instantaneamente.</p>
+                    <p>• Habilidades principais: Programação de sistemas embarcados (C, C++, Python), protocolos de comunicação sem fio (como 5G, LoRaWAN, NB-IoT), segurança de dispositivos físicos e análise de dados em tempo real.</p>
+                    <p>• Áreas de origem: Engenheiros de telecomunicações, desenvolvedores de hardware e engenheiros de software de sistemas embarcados.</p>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="caixa-sobre">
+            <div class="sobre-container">
+                <div class="sobre-imagem">
+                    <img src="img/finops.jfif" alt="SobreNos" class="ia">
+                </div>
+                
+                
+                <div class="sobre-texto">
+                    <h3> Especialista em Cloud FinOps</h3>
+                    <p>O termo vem de Financial Operations (Operações Financeiras). Antigamente, a TI comprava servidores físicos uma vez e pronto. Na nuvem, o modelo é "pague pelo que usar". Se a empresa esquecer sistemas ligados sem necessidade, a conta no fim do mês pode ser catastrófica. Esse profissional une TI e Finanças.</p>   
+                    <p>• O que faz no dia a dia: Monitora constantemente o consumo de recursos na nuvem (AWS, Azure, Google Cloud). Ele identifica desperdícios — como servidores superdimensionados para o tamanho do site ou bancos de dados ociosos —, renegocia planos com os provedores e cria relatórios e alertas de gastos para os times de engenharia.</p>
+                    <p>• Habilidades principais: Profundo conhecimento técnico de custos e serviços de nuvem, análise financeira, governança de TI e metodologias ágeis (cultura FinOps).</p>
+                    <p>• Áreas de origem: Analistas financeiros com forte inclinação tecnológica, gerentes de projetos de TI e engenheiros de nuvem com visão de negócios.</p>
+                </div>
+            </div>
+        </section>
+          <footer class="rodape">
+    <h5>
+      <b>©2026 Poibiliades de Profissões</b>
+    </h5>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profissões do Amanhã</title>
+</head>
+<body>
+    
+    /* Essa parte deve ter em todas as páginas */
+    <div class="caixa-imagem">
+       <img src="img/images.capa.jfif" alt="">
+       <div class="mascara"></div>   
+    </div>
+
+    <header class="header">
+        <section>
+            <a href="#">
+                <img src="img/Tecnologia-removebg-preview.png" alt="logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="tecnologias.html">Profissões</a>
+                <a href="profissoes.html">Sobre</a>
+                <a href="#" onclick="mostrarModal()">Endereço</a>
+            </nav>
+        </section>
+    </header>
+/*Até aqui Apenas*/
+        <section class="caixa-principal">
+            <div>
+                <h3>Profissões do Amanhã</h3>
+                <p>As novas tecnologias estão inventando profissões que ainda não têm nome.
+Inteligência artificial, biotecnologia, energia limpa e mundos virtuais estão mudando não só como trabalhamos, mas quais trabalhos existem. Este guia reúne sete paradas sobre as carreiras que estão nascendo agora — e o que é preciso aprender para chegar até elas.</p>
+                <a class="botao-link" href="tecnologias.html">Venha conhecer</a>
+            </div>
+        </section>
+
+        <section class="caixa-sobre">
+            <h2> <span>Sobre</span> Nós</h2>
+            <div class="sobre-container">
+                <div class="sobre-imagem">
+                    <img src="img/pqascolhadotema_largura_reduzida.jpg" alt="SobreNos">
+                </div>
+                
+                
+                <div class="sobre-texto">
+                    <h3>Por que a escolha desse tema?</h3>
+                    <p> Após algumas análises informais, percebi que muitos jovens hoje, não sabem o que querem fazer após se formarem no ensino médio.
+                    Tomei isso como inspiração para fazer pesquisas sobre algumas possibilidades de futuras carreiras, para nós jovens que vamos terminar o ensino médio com um curso técnico profissionalizante.
+                    </p>
+                    <a class="botao-link" href="profissoes.html">saiba mais</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="modal">
+            <h3 class="titulo"><span>Nosso</span> Endereço</h3>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60192.52168229662!2d-42.626642778320324!3d-19.454161000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xafffd8218e59c1%3A0x2157de8f866b00f3!2sUNINTER%20%7C%20Ipatinga%20-%20MG!5e0!3m2!1spt-BR!2sbr!4v1791137746584!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+
+        <div class="mascara-modal" onclick="esconderModal()"></div>
+
+        <script src="scripts.js"></script>
+
+  <footer class="rodape">
+    <h5>
+      <b>©2026 Poibiliades de Profissões</b>
+    </h5>
+  </footer>
+</body>
+</html>

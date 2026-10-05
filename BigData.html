@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Profissões do Amanhã</title>
+</head>
+<body>
+
+    
+        /* Essa parte deve ter em todas as páginas */
+    <div class="caixa-imagem">
+       <img src="img/images.capa.jfif" alt="">
+       <div class="mascara"></div>   
+    </div>
+
+    <header class="header">
+        <section>
+            <a href="#">
+                <img src="img/Tecnologia-removebg-preview.png" alt="logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="tecnologias.html">Profissões</a>
+                <a href="profissoes.html">Sobre</a>
+                <a href="#" onclick="mostrarModal()">Endereço</a>
+            </nav>
+        </section>
+    </header>
+/*Até aqui Apenas*/
+        <div class="modal">
+            <h3 class="titulo"><span>Nosso</span> Endereço</h3>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60192.52168229662!2d-42.626642778320324!3d-19.454161000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xafffd8218e59c1%3A0x2157de8f866b00f3!2sUNINTER%20%7C%20Ipatinga%20-%20MG!5e0!3m2!1spt-BR!2sbr!4v1791137746584!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+
+        <div class="mascara-modal" onclick="esconderModal()"></div>
+
+        <script src="scripts.js"></script>
+
+        <section class="caixa-sobre">
+            <div class="sobre-container">
+                <div class="sobre-imagem">
+                    <img src="img/dataenginner.jfif" alt="SobreNos" class="ia">
+                </div>
+                
+                
+                <div class="sobre-texto">
+                    <h3>Engenheiro de Dados</h3>
+                    <p>Antes que qualquer painel de gráficos seja montado ou que uma inteligência artificial comece a fazer previsões, o Engenheiro de Dados precisa agir. Ele é o arquiteto que constrói a infraestrutura de transporte e organização dos dados brutos.</p>
+                    <p>• O que faz no dia a dia: Cria e mantém os chamados pipelines de dados (as tubulações digitais). Ele busca dados de fontes totalmente diferentes — como cliques no site, transações financeiras e postagens em redes sociais —, limpa essas informações para remover erros e as armazena de forma segura e rápida em grandes depósitos digitais (Data Warehouses ou Data Lakes). Sem ele, o Cientista de Dados não tem matéria-prima para trabalhar.</p>
+                    <p>• Habilidades principais: Domínio absoluto de linguagens de banco de dados (SQL) e programação (Python, Scala), ferramentas de Big Data (como Apache Spark, Hadoop) e arquiteturas de nuvem (AWS, Google Cloud, Azure).</p>
+                    <p>• Áreas de origem: Administradores de Banco de Dados (DBAs), engenheiros de software de back-end e especialistas em infraestrutura de TI.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="caixa-sobre">
+            <div class="sobre-container">
+                <div class="sobre-imagem">
+                    <img src="img/cientista.jfif" alt="SobreNos" class="ia">
+                </div>
+                
+                
+                <div class="sobre-texto">
+                    <h3>Cientista de Dados de Comportamento</h3>
+                    <p>A ciência de dados tradicional analisa padrões numéricos puros. O Cientista de Dados de Comportamento vai além: ele cruza os métodos estatísticos e algoritmos de aprendizado de máquina (Machine Learning) com a psicologia e as ciências comportamentais para entender o porquê por trás das ações humanas.</p>
+                    <p>• O que faz no dia a dia: Analisa as trilhas digitais deixadas pelos usuários para prever comportamentos futuros. Ele descobre por que os clientes abandonam o carrinho de compras em determinado momento, desenha testes (como Testes A/B) para descobrir qual cor ou layout gera mais engajamento, cria modelos preditivos para antecipar quando um cliente está prestes a cancelar uma assinatura (churn) e ajuda a desenhar algoritmos de recomendação altamente personalizados.</p>
+                    <p>• Habilidades principais: Estatística avançada, algoritmos de Machine Learning, modelagem comportamental, economia comportamental e psicologia do consumidor.</p>
+                    <p>• Áreas de origem: Cientistas de dados tradicionais, estatísticos, psicólogos experimentais e economistas focados em dados</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="caixa-sobre">
+            <div class="sobre-container">
+                <div class="sobre-imagem">
+                    <img src="img/detetive.jfif" alt="SobreNos" class="ia">
+                </div>
+                
+                
+                <div class="sobre-texto">
+                    <h3>Detetive de Dados</h3>
+                    <p>Embora pareça o nome de uma profissão de ficção científica, o Detetive de Dados é uma realidade crescente na governança corporativa e na segurança. Enquanto o analista comum olha para os dados para ver se tudo está correndo bem, o detetive entra em cena para investigar anomalias, mistérios e falhas estruturais.</p>
+                    <p>• O que faz no dia a dia: Investiga o que os dados não estão dizendo de forma óbvia. Ele caça fraudes financeiras complexas examinando milhões de transações repetitivas, investiga gargalos ocultos na cadeia de suprimentos de uma fábrica ou descobre brechas de segurança por onde dados confidenciais podem estar vazando. É um trabalho minucioso de engenharia reversa para entender a causa raiz de um problema de negócios através dos rastros digitais.</p>
+                    <p>• Habilidades principais: Análise forense de dados, mineração de dados (data mining), pensamento investigativo/crítico, conhecimento de compliance legal e ferramentas de visualização (como Tableau ou Power BI).</p>
+                    <p>• Áreas de origem: Analistas de segurança da informação, auditores fiscais/financeiros e analistas de Business Intelligence (BI) focados em segurança.</p>
+                </div>
+            </div>
+        </section>
+          <footer class="rodape">
+    <h5>
+      <b>©2026 Poibiliades de Profissões</b>
+    </h5>
+  </footer>
+</body>
+</html>
