@@ -271,3 +271,14 @@ section{
     font-size: 14px;
   }
 }
+
+.menu div{
+  width: 32px;
+  heigt: 2px;
+  background: #fff;
+  margin: 8px;
+}
+
+.menu{
+    cursor: pointer;
+}
