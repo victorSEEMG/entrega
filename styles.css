@@ -281,4 +281,5 @@ section{
 
 .menu{
     cursor: pointer;
+    display: none;
 }
