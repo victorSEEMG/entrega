@@ -16,3 +16,17 @@ function esconderModal(){
     modal.style.left = '-300%'
     mascara.style.visibility ='hidden'
 }
+
+class Mobile{
+    constructor(mobileMenu, navList, navLinks){
+        this.mobileMenu = document.querySelector(mobileMenu);
+        this.navList = document.querySelector(navList);
+        this.navLinks = document.querySelectorAll(navLinks);
+        this.activeClass = "active";
+    }
+
+    addClickEvent() {
+        
+    }
+    
+}
